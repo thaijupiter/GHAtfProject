@@ -5,14 +5,14 @@ on:
     branches:
       - main
       - test
-      - dev
+      - feat/scale-up-dev
     paths: 'GHAtfProject/**'
 
   pull_request:
     branches:
       - main
       - test
-      - dev
+      - feat/scale-up-dev
     paths: 'GHAtfProject/**'
 
 env:
